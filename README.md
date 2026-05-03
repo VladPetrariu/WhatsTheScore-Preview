@@ -10,7 +10,20 @@
 
 ## Preview
 
-> Screenshots coming soon (will land in [`screenshots/`](screenshots/)).
+<p align="center">
+  <img src="screenshots/01-leaderboard.png" width="280" alt="April Madness leaderboard with podium and live rankings" />
+</p>
+
+<p align="center">
+  <img src="screenshots/02-boards.png" width="200" alt="Your boards: pinned hero board plus the rest" />
+  <img src="screenshots/03-player-profile.png" width="200" alt="Player profile with rank journey, recent form and favourite games" />
+  <img src="screenshots/04-head-to-head.png" width="200" alt="Head-to-head record between two players" />
+</p>
+
+<p align="center">
+  <img src="screenshots/05-me.png" width="200" alt="Your profile, lifetime stats, and achievements" />
+  <img src="screenshots/06-create.png" width="200" alt="Create a new board or join one with a 6-character code" />
+</p>
 
 ---
 

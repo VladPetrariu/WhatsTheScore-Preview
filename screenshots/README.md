@@ -1,25 +1,14 @@
 # Screenshots
 
-Drop your App Store screenshots in this folder. Suggested filenames so they sort in app-flow order:
+App Store / portfolio screenshots wired into the root [`README.md`](../README.md).
 
-- `01-login.png` — Sign in with Apple
-- `02-home.png` — My Leaderboards
-- `03-leaderboard.png` — Rankings view
-- `04-create-match.png` — Match creation
-- `05-record-result.png` — Placement entry
-- `06-match-history.png` — History
-- `07-profile.png` — Player profile
-- `08-achievements.png` — Achievements
-- `09-head-to-head.png` — Head-to-head record
+Current set:
 
-Once they're in here, edit the table near the top of the root `README.md` to reference them, e.g.:
-
-```markdown
-<p align="center">
-  <img src="screenshots/02-home.png" width="220" />
-  <img src="screenshots/03-leaderboard.png" width="220" />
-  <img src="screenshots/05-record-result.png" width="220" />
-</p>
-```
-
-GitHub renders that grid inline.
+| File | Screen |
+|---|---|
+| `01-leaderboard.png` | Leaderboard detail with podium, stats row, rankings, Record New Match |
+| `02-boards.png` | Boards tab: pinned hero board + other boards |
+| `03-player-profile.png` | Another player's profile: rank journey, recent form, favourite games |
+| `04-head-to-head.png` | Head-to-head record between two players |
+| `05-me.png` | Your own profile: lifetime stats, progress bar, achievements |
+| `06-create.png` | Create a new board or join with a 6-character code |

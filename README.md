@@ -10,8 +10,6 @@
 
 ## Preview
 
-**▶ [Watch the live demo](https://vladpetrariu.github.io/WhatsTheScore-Preview/media/whatsthescore-demo.html)** (a short interactive walkthrough that runs in your browser).
-
 > Screenshots coming soon (will land in [`screenshots/`](screenshots/)).
 
 ---

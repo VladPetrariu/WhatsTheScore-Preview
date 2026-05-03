@@ -10,11 +10,9 @@
 
 ## Preview
 
-> Video and screenshots will be dropped in here.
+**▶ [Watch the live demo](https://vladpetrariu.github.io/WhatsTheScore-Preview/media/whatsthescore-demo.html)** (a short interactive walkthrough that runs in your browser).
 
-| Preview Video | Screenshots |
-|---|---|
-| `media/loop.mp4` *(coming soon)* | `screenshots/` *(coming soon)* |
+> Screenshots coming soon (will land in [`screenshots/`](screenshots/)).
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Status:** Coming soon to the App Store. iOS 16.5+, built in SwiftUI, backed by Firebase.
 
-> This is a public **preview repository** — a showcase of the app, with documentation and a curated set of source files. The full source is kept private.
+> This is a public **preview repository**, a showcase of the app, with documentation and a curated set of source files. The full source is kept private.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## What it is
 
-WhatsTheScore? turns any recurring friend-group competition — pool nights, chess matches, Mario Kart, Catan, Monopoly — into a real **ranked ladder**. Every game you log moves players up or down a 24-tier system inspired by competitive games (Iron → Bronze → … → Immortal). Friends join your ladder via a 6-character invite code, and the leaderboard updates live for everyone.
+WhatsTheScore? turns any recurring friend-group competition like pool nights, chess matches, Mario Kart, Catan, Monopoly, into a real **ranked ladder**. Every game you log moves players up or down a 24-tier system inspired by competitive games (Iron → Bronze → … → Immortal). Friends join your ladder via a 6-character invite code, and the leaderboard updates live for everyone.
 
 It's the "rank up" loop from your favorite competitive game, but for the games you and your friends actually play in person.
 
@@ -41,13 +41,13 @@ It's the "rank up" loop from your favorite competitive game, but for the games y
 
 ## Why I built this
 
-Every group of friends has the same conversation eventually: *"Wait, who's actually won the most?"* You play pool every Friday for a year and nobody can remember if Alex was up 4–2 or 6–4 against Sam. You start a Notes app tally that nobody updates. You try a spreadsheet — same outcome.
+Every group of friends has the same conversation eventually: *"Wait, who's actually won the most?"* You play pool every Friday for a year and nobody can remember if Alex was up 4–2 or 6–4 against Sam. You start a Notes app tally that nobody updates. You try a spreadsheet, same outcome.
 
 The problem isn't that you need a more capable spreadsheet. The problem is that **no scoring system feels like it has stakes.** Tallies are flat. They don't reward streaks, they don't punish slumps, they don't give you something to brag about over the table.
 
 The competitive games we already love solved this years ago. Ranked ladders work because the visible identity of a "Gold 2" or a "Diamond 1" carries weight. You don't want to drop a tier. You want the next one.
 
-WhatsTheScore? takes that exact loop and points it at the games friends actually play together — not the ones a giant studio published. You log results in seconds, the math happens for you, and the ranks do the rest of the work.
+WhatsTheScore? takes that exact loop and points it at the games friends actually play together, not the ones a giant studio published. You log results in seconds, the math happens for you, and the ranks do the rest of the work.
 
 > Read more in [`docs/WHY.md`](docs/WHY.md).
 
@@ -81,7 +81,7 @@ WhatsTheScore? takes that exact loop and points it at the games friends actually
 | Ascendant | 1800–1899 | 1900–1999 | 2000–2099 |
 | Immortal | 2100–2199 | 2200–2299 | 2300+ |
 
-Points can go negative. You'll still display as Iron 1, but you have to climb back above 0 before the system will rank you up. **Immortal 3 has no ceiling** — it's the bragging-rights tier.
+Points can go negative. You'll still display as Iron 1, but you have to climb back above 0 before the system will rank you up. **Immortal 3 has no ceiling**, it's the bragging-rights tier.
 
 > Deep dive (point systems, math, edge cases) in [`docs/RANKING_SYSTEM.md`](docs/RANKING_SYSTEM.md).
 
@@ -157,4 +157,4 @@ All rights reserved. The code in [`code-previews/`](code-previews/) is shown for
 
 ## Contact
 
-Built by Vlad Petrariu. *(Add your preferred contact links here — site, X, LinkedIn, email.)*
+Built by Vlad Petrariu. *https://www.linkedin.com/in/vladpetrariu777/*

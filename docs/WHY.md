@@ -1,39 +1,35 @@
 # Why I built WhatsTheScore?
 
-## The conversation that always happens
+## It started as a shared note
 
-Every friend group has the same conversation eventually: *"Wait, who's actually won the most?"*
+For the last few years, my friends and I have kept a shared note in iCloud Notes that tracks our "rank" across the games we play together: pool, darts, chess, whatever's in front of us that night. Every hangout, after the games, somebody pulls it up and updates it: who played, who won, who climbed, who dropped a tier.
 
-You play pool every Friday for a year and nobody can remember if Alex was up 4–2 or 6–4. You start a Notes app tally that nobody updates. You try a Google Sheet — same outcome. You give up and go back to playing without keeping score, which is fine, until two months later when the conversation starts again.
+That's the whole origin story. There was no plan. We just started keeping score one night and never stopped.
 
-The problem isn't that you need a smarter spreadsheet. The problem is that **flat tallies don't feel like anything.** A 12–9 lead doesn't sting. A win doesn't carry. There's nothing to defend, nothing to chase.
+## The surprising part is that it worked
 
-## What competitive games already figured out
+Most things you set up with friends die in a week. You start a fantasy league, you set up a recurring calendar invite, you make a Discord server, and then everyone forgets. The note didn't die. It became one of the most-used "apps" in our group chat. People referenced it at the start of games to see who needed to win to climb. People argued about it. People checked it after a few drinks. It just kept getting opened.
 
-Ranked ladders in games like Valorant, League, CS, Apex, Dota — they all converged on the same shape because that shape works. A visible tier identity ("Gold 2", "Diamond 1") does three things at once:
+Year after year, hangout after hangout, no maintenance, no buy-in meetings. That's the thing I trust about this idea. It isn't a guess at whether a friend-group ranking system works. We've been running the experiment for years. The answer is yes.
 
-1. **It compresses your history into something memorable.** You don't remember your last 50 games; you remember you're Gold.
-2. **It creates loss aversion.** The thought of dropping a tier is more motivating than the thought of climbing one. You play one more match.
-3. **It makes bragging legible.** "I hit Diamond" is something you can say at the table. "I'm 38–22 lifetime" isn't.
+## Where the note hit its limits
 
-Notice what those mechanics have nothing to do with: the genre of the game, the platform, whether it's online or on a couch. They're a scoring shape, not a videogame feature.
+What the note couldn't do, by being a note:
 
-## So I pointed it at the games we actually play
+- **The math.** Every update was hand-arithmetic and somebody always got it wrong. "Wait, was that +25 or +50?"
+- **The rank had no visual weight.** It was a list of numbers we'd mentally translated into tier names. The actual *feeling* of being Gold 2, the badge, the color, the progress bar to the next division, wasn't there. The system worked, but it didn't *look* like it was working.
+- **Multiple groups didn't fit.** The same people overlap across "Friday pool", "Wednesday Catan", and "office FIFA", but they can't share one ladder cleanly. We ended up with multiple notes, none of them current.
+- **Match history was unreadable.** It was buried in a wall of bullet points stretching back years. You couldn't really browse it.
+- **Adding a friend meant explaining the whole system from scratch**, then sharing the note, then hoping they didn't accidentally edit somebody's score.
 
-WhatsTheScore? takes that ranked-ladder shape and applies it to the games friends actually play together — pool, darts, chess, Catan, Mario Kart, Monopoly, FIFA, whatever. You log a match in about ten seconds. The 24-tier ladder does everything else: the math, the visible identity, the loss aversion, the bragging rights.
+So WhatsTheScore? is that note, built for the job. The math runs itself. The ranks have illustrated badges and tier colors. Multiple leaderboards are first-class. Match history is paginated and tappable. Joining is a 6-character invite code, not "let me share my note with you."
 
-Three principles I tried to keep:
+## Same loop, just an app
 
-- **Logging a match has to be instant.** If it takes longer than the time between racking the next pool game, it won't get used. The whole flow is: pick game → pick players → enter placements → done.
-- **No social directory.** No friend search, no usernames to look up. Leaderboards are joined with a 6-character invite code, full stop. That keeps the surface area small and the privacy story simple.
-- **Group competition, not global.** This isn't a worldwide ranking system. Each leaderboard is its own world. Your Iron 1 in the Tuesday Catan group is a totally different thing from your Diamond 2 in the office FIFA group, and they should feel that way.
+Three principles I tried to hold to as I built it:
 
-## What it is not (and that's the point)
+- **Logging a match has to be fast.** If the flow takes longer than the time between racking the next pool game, it won't get used. Pick game, pick players, enter placements, done.
+- **No social directory.** No friend search, no usernames to look up. Invite codes only. The note had this property for free, and I didn't want to lose it.
+- **Group competition, not global.** Each leaderboard is its own world. Your Iron 1 in the Catan group isn't the same thing as your Diamond 2 in the FIFA group, and they shouldn't pretend to be.
 
-It is **not** trying to be a stats platform, a tournament organizer, a betting app, a social network, a chat app, or anything you'd schedule a meeting about. It's a ladder. You log a result, the ladder moves, you go play another game.
-
-That narrowness is the feature.
-
-## What's next
-
-If the ladder loop works for the people who use it, the next interesting question is **seasons** — does the loop get sharper if everything resets every few months and the ladder starts over? My instinct says yes; it works in every other ranked game. But that's a question to answer with real friend-group data after it ships, not before.
+If WhatsTheScore? works the way the note did, quietly opened every hangout for years, that's the validation. If a few other friend groups pick it up too, that's the bonus.

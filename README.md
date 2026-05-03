@@ -41,15 +41,13 @@ It's the "rank up" loop from your favorite competitive game, but for the games y
 
 ## Why I built this
 
-Every group of friends has the same conversation eventually: *"Wait, who's actually won the most?"* You play pool every Friday for a year and nobody can remember if Alex was up 4–2 or 6–4 against Sam. You start a Notes app tally that nobody updates. You try a spreadsheet, same outcome.
+For the last few years, my friends and I have kept a shared iCloud note tracking our "rank" across the games we play together: pool, darts, chess, whatever's in front of us. Every hangout, somebody updates it. It just kept working. Year after year, it became one of the most-used "apps" in our group chat.
 
-The problem isn't that you need a more capable spreadsheet. The problem is that **no scoring system feels like it has stakes.** Tallies are flat. They don't reward streaks, they don't punish slumps, they don't give you something to brag about over the table.
+This isn't a guess at whether a friend-group ranking system works. We've been running the experiment for years. The answer is yes, and the note had earned being a real app.
 
-The competitive games we already love solved this years ago. Ranked ladders work because the visible identity of a "Gold 2" or a "Diamond 1" carries weight. You don't want to drop a tier. You want the next one.
+WhatsTheScore? is that note, built for the job: the math runs itself, the ranks have actual visuals, multiple games and groups are first-class, history is browsable, and joining is a 6-character invite code instead of "let me share my note with you." Same loop, same reason it works.
 
-WhatsTheScore? takes that exact loop and points it at the games friends actually play together, not the ones a giant studio published. You log results in seconds, the math happens for you, and the ranks do the rest of the work.
-
-> Read more in [`docs/WHY.md`](docs/WHY.md).
+> Full story in [`docs/WHY.md`](docs/WHY.md).
 
 ---
 

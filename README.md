@@ -2,7 +2,13 @@
 
 > A competitive leaderboard for friends. Track every match, climb the ranks, settle every "wait, who's actually winning?" once and for all.
 
-**Status:** Coming soon to the App Store. iOS 16.5+, built in SwiftUI, backed by Firebase.
+**Status:** Live on the App Store for iPhone and iPad. iOS 16.5+, built in SwiftUI, backed by Firebase.
+
+<p align="center">
+  <a href="https://apps.apple.com/ca/app/whatsthescore/id6759945866">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?releaseDate=1700000000" alt="Download WhatsTheScore? on the App Store" height="56" />
+  </a>
+</p>
 
 > This is a public **preview repository**, a showcase of the app, with documentation and a curated set of source files. The full source is kept private.
 
